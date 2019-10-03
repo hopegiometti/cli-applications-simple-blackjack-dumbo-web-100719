@@ -37,12 +37,12 @@ def hit?(number)
     deal_card
   elsif get_user_input == "s"
     initial_round
-  else 
+  else
     invalid_command
   end
 
   initial_round
-  
+
 end
 
 def invalid_command
