@@ -31,7 +31,7 @@ def initial_round
 end
 
 def hit?
-  # code hit? here
+  puts "Type 'h' to hit or 's' to stay"
 end
 
 def invalid_command
