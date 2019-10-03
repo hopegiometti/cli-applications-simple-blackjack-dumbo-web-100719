@@ -32,16 +32,10 @@ end
 
 def hit?(number)
   prompt_user
-  get_user_input
-  if get_user_input == "h"
-    deal_card
-  elsif get_user_input == "s"
-    initial_round
-  else
+  user_input = get_user_input
+  while user_input != "h" && user_input != "s"
     invalid_command
-  end
-
-  initial_round
+    
 
 end
 
