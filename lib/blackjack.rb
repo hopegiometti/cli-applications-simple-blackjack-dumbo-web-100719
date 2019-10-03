@@ -30,8 +30,8 @@ def initial_round
   return card_total
 end
 
-def hit?
-  puts "Type 'h' to hit or 's' to stay"
+def hit?(number)
+  
 end
 
 def invalid_command
